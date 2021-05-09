@@ -11,7 +11,7 @@
     text-align: center;
     color:#3b3a30;
     font: 16px/1px sans-serif;
-    line-height: 10px;
+    line-height: 20px;
   }
 
   p {
@@ -39,11 +39,13 @@
   .rwd-break {
     display: block;
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (min-width: 600px) {
     [class*="rwd-break"] {
       display: none;
     }
-    [class*="div"] {line-height: 50px;}
+    [class*="div"] {
+      line-height: 50px;
+    }
 }
 
 </style>
