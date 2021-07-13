@@ -1,2 +1,2 @@
 # bigdaddytwochinz.github.io
-HI THIS IS MY WEBSITE ITS NOTHING
+Built my website using Reveal.js. Check it out!
