@@ -1,75 +1,50 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<style>
-  h1 {color:#3b3a30;
-  font: 50px sans-serif;
-}
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-  body {background-color:#F8F4EE;}
+		<title>reveal.js</title>
 
-  div {
-    text-align: center;
-    color:#3b3a30;
-    font: 16px/1px sans-serif;
-    line-height: 20px;
-  }
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
 
-  p {
-    text-align: center;
-    color:#3b3a30;
-    font: 16px/1px sans-serif;
-    line-height: 10px;
-  }
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
 
-  .imgofme {
-    line-height: 250px
-    height: 279px;
-    width: 418px;
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-  }
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>Slide 1</section>
+				<section>Slide 2</section>
+			</div>
+		</div>
 
-  .center {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-  .rwd-break {
-    display: block;
-  }
-  @media only screen and (min-width: 600px) {
-    [class*="rwd-break"] {
-      display: none;
-    }
-    [class*="div"] {
-      line-height: 50px;
-    }
-}
+		<script src="js/reveal.js"></script>
 
-</style>
-<meta name="viewport" content="width=device-width, initial-scale = 1.0" class="rwd-break">
-<title> Achinth Bharadwaj </title>
-<body>
-  <h1> <center> Hello World, I'm Achinth! </center> </h1>
-
-  <div> <br> Hi! I'm Achinth, a nineteen-year-old sophomore at the
-      University of British Columbia studying computer science and
-      statistics. I'm also an intern with Boeing in my hometown, Vancouver!</div>
-      <br>
-      <img src="achinthEpic.jpg" alt="the achinth epic style" class="imgofme">
-      <p> Here is my <a href="Bharadwaj_Achinth.pdf"> Resume </a> </p>
-    <p> Here is my <a href="https://github.com/bigdaddytwochinz"> GitHub </a>
-    </p>
-    <P> Here is my
-      <a href="https://www.linkedin.com/in/achinth-bharadwaj-410b0a180/">
-        LinkedIn </a>
-    <p> Click <a href="shiba-worship.html"> here</a> to see a cute dog</p>
-    <div> <br> Feel free to contact me at <a href="mailto:achinth.bharadwaj@gmail.com">
-      achinth.bharadwaj@gmail.com </a> and send me something nice! </div>
-  </body>
-
-
-
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				hash: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/highlight/highlight.js' },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+		</script>
+	</body>
 </html>
