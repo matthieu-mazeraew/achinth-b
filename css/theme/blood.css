@@ -9,7 +9,7 @@
  * For other themes, change $codeBackground accordingly.
  *
  */
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,700,300italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Muli:300,700,300italic,700italic);
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
@@ -18,7 +18,7 @@ body {
   background-color: #222; }
 
 .reveal {
-  font-family: Ubuntu, "sans-serif";
+  font-family: Muli, "sans-serif";
   font-size: 40px;
   font-weight: normal;
   color: #eee; }
@@ -49,7 +49,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #eee;
-  font-family: Ubuntu, "sans-serif";
+  font-family: Muli, "sans-serif";
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
