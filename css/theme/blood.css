@@ -277,7 +277,7 @@ body {
 
 .reveal p {
   font-weight: 300;
-  text-shadow: 1px 1px #222; }
+  /* text-shadow: 1px 1px #222; } */
 
 .reveal h1,
 .reveal h2,
@@ -294,3 +294,15 @@ body {
 
 .reveal small code {
   vertical-align: baseline; }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .mid {
+    float: left;
+    width: 47.5%;
+    padding: 5px;
+  }
