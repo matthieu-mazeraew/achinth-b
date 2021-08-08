@@ -277,7 +277,7 @@ body {
 
 .reveal p {
   font-weight: 300;
-  /* text-shadow: 1px 1px #222; } */
+  text-shadow: 1px 1px #222; }
 
 .reveal h1,
 .reveal h2,
