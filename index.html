@@ -29,9 +29,12 @@
 			<section>
 
 				<section>
+				<div style="display:flex;justify-content:center;">
 					<h3 style="vertical-align=top">
-						Hello World! I'm <h3 id='typewriter'> </h3>
+						Hello world! I'm&nbsp
 					</h3>
+					<h3 id="typewriter"></h3>
+				</div>
 					<p> (click the arrows for some fun!)</p>
 				</section>
 
@@ -286,11 +289,11 @@
 
 					// normal options
 					selector: '.background',
-					maxParticles: 175,
+					maxParticles: 200,
 					color: '#cfb87c',
 					connectParticles: false,
 					sizeVariations: 5,
-					speed = 0.44,
+					speed: 0.34,
 
 
 					// options for breakpoints
@@ -321,7 +324,7 @@
 	 const instance = new Typewriter('#typewriter', {
 		 strings: ['<span class="wrapper" style="color:#e7ad52"><span class="span-1">Achinth.</span>',
 			 '<span class="wrapper" style="color:#e7ad52"><strong>an aspiring engineer.</strong></span>',
-			 '<span className="wrapper" style="color:#e7ad52"><strong>an ultimate frisbee player.</strong></span>',
+			 '<span className="wrapper" style="color:#e7ad52"><strong>an ultimate player.</strong></span>',
 		 '<span class="wrapper" style="color:#e7ad52"><strong>an avid eater.</strong></span>'],
 		 autoStart: true,
 		 loop: true,
