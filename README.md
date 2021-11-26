@@ -1,3 +1,3 @@
 # achinth-b.github.io
-Scope out my website [here](https://www.achinth.ca)
+Scope out my website [here](https://achinth.ca)
 
